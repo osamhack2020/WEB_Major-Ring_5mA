@@ -51,7 +51,7 @@ $ yarn start or npm run start
  
 ## 팀 정보 (Team Information)
 - Choi In Kyu (aika823@naver.com), Github Id: aika823
-- Choi In Kyu (aika823@naver.com), Github Id: aika823
+- newsm5403 (newsm5403@naver.com), Github Id: Moon9yu
 
 ## 저작권 및 사용권 정보 (Copyleft / End User License)
  * [MIT](https://github.com/osam2020-WEB/Sample-ProjectName-TeamName/blob/master/license.md)
