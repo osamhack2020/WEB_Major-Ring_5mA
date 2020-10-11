@@ -6,7 +6,7 @@
 **2019프로젝트, readme.md를 참고하여 개발자님의 새로운 프로젝트를 만들어주세요!**
 
 ## 팀 로고
-![logo](./static/img/5mA-logo.png)
+![5mA-logo](https://user-images.githubusercontent.com/33226487/95680763-d5c1e500-0c16-11eb-8cfb-3dc6c5adb45d.png)
 
 ## 팀소개 및 프로잭트 설명 동영상
 [![Watch the video](https://img.youtube.com/vi/LjX3eVQdIyk/0.jpg)](https://www.youtube.com/watch?time_continue=117&v=LjX3eVQdIyk)
