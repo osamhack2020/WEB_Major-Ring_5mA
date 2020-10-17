@@ -39,7 +39,6 @@ def test4():
     return render_template('typography.html')
 
 
-
 @app.route('/crawl')
 def crawl():
     html = urllib.request.urlopen("https://wevity.com")
