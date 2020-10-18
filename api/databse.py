@@ -1,48 +1,37 @@
+from flask import Flask
+from flask_sqlalchemy import SQLAlchemy
 from sqlalchemy import create_engine, MetaData, Table, Column, Integer, String
-engine = create_engine('sqlite:///major-ring.db',echo=True)
-meta = MetaData()
+from sqlalchemy.ext.declarative import declarative_base
 
-users = Table(
-    'users', meta,
-    Column('id',Integer,primary_key=True),
-    Column('name',String),
-    Column('major',String)
-)
+engine = create_engine('sqlite:///:major-ring:', echo=True)
+Base = declarative_base()
 
 
-class User(db.Model):
-    __table_name__ = 'user'
+class User(Base):
+    __tablename__   = 'user'
+    id       = Column(Integer, primary_key=True)
+    username = Column(String(100), unique=True, nullable=False)
+    email    = Column(String(120), unique=True, nullable=False)
+    password = Column(String(100), nullable=False)
 
-    id = db.Column(db.Integer, primary_key=True)
-    username = db.Column(db.String(100), unique=True, nullable=False)
-    email = db.Column(db.String(120), unique=True, nullable=False)
-    password = db.Column(db.String(100), nullable=False)
-    profile_image = db.Column(db.String(100), default='default.png')
+    def __init__(self, username, email):
+        self.username = username
+        self.email = email
+        self.set_password(password)
 
-    posts = db.relationship('Post', backref='author', lazy=True)
+    def __repr__(self):
+        return f"<User('{self.id}', '{self.username}', '{self.email}')>"
 
-
-def __init__(self, username, email, password, **kwargs):
-    self.username = username
-    self.email = email
-
-    self.set_password(password)
-
-
-def __repr__(self):
-    return f"<User('{self.id}', '{self.username}', '{self.email}')>"
-
-
-def set_password(self, password):
-    self.password = generate_password_hash(password)
-
-
-def check_password(self, password):
-    return check_password_hash(self.password, password)
-
-
-user = User(username='user', email='user@blog.com', password='password')
-db.session.add(user)
-db.session.commit()
-
-print(user)
+# User.__table__.create(bind=engine, checkfirst=True)
+#
+from sqlalchemy.orm import sessionmaker
+#
+Session = sessionmaker(bind=engine)
+session = Session()
+#
+# input_data = User(
+#     username='test',
+#     email='test@test.com'
+# )
+# session.add(input_data)
+# session.commit()
