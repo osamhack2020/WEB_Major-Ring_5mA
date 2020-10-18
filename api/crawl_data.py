@@ -1,5 +1,3 @@
-
-
 #api for crawling
 from urllib.request import urlopen
 # import re
