@@ -363,7 +363,7 @@ a {
     .single-portfolio .p-inner .cat {
       font-size: 12px;
       text-transform: uppercase;
-      color: #cccccc; }
+      color: #7f2153; }
 
 /*--------- Start Portfolio Area -------------*/
 .portfolio-area .primary-btn {
@@ -456,7 +456,9 @@ a {
   -o-transition: .5s ease;
   transition: .1s ease;
   -webkit-backface-visibility: hidden;
-  backface-visibility: hidden; }
+  backface-visibility: hidden; 
+  border-radius: 15px;
+}
 
 .middle {
   -webkit-transition: .5s ease;
@@ -472,6 +474,7 @@ a {
   color: black;
   width: 90%;
   height: 50%;
+  font-weight: bold;
   }
   
 .thumb:hover .image{
@@ -479,6 +482,7 @@ a {
   transition: .1s ease;
   opacity: .25;
   z-index: .2;
+  box-shadow: 5px 5px 5px 5px #515457;
 }
 .thumb:hover .middle{
   z-index:1;
