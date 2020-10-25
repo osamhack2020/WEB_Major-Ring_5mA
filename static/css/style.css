@@ -539,6 +539,10 @@ a {
   .resume-item *:last-child {
     margin-bottom: 0; }
 
+.resume-item h3:hover{
+  color: rgb(216, 55, 95)
+}
+
 .blog-entry {
   -webkit-transition: .3s all ease;
   -o-transition: .3s all ease;
@@ -594,7 +598,8 @@ a {
     color: rgba(255, 255, 255, 0.5); }
 
 .site-form .form-control {
-  border: 1px solid #b3bdc6; }
+  border: 1px solid #b3bdc6;
+color: white; }
 
 .site-contact-details, .site-contact-details li {
   padding: 0;
@@ -612,7 +617,9 @@ a {
     display: block; }
 
 .site-footer {
-  padding: 3em 0; }
+  padding: 3em 0; 
+  background-color: #5da4e0;
+}
   .site-footer p:last-child {
     margin-bottom: 0; }
   .site-footer .social-item {
@@ -666,3 +673,6 @@ a {
 .letter-spacing {
   letter-spacing: .2rem;
   color: rgba(255, 255, 255, 0.5) !important; }
+.col-12{
+  color: black;
+}
