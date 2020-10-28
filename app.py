@@ -7,6 +7,8 @@ app = Flask(__name__)
 app.config['SQLALCHEMY_DATABASE_URI'] = 'sqlite:///test.db'
 app.config['SQLALCHEMY_TRACK_MODIFICATIONS'] = False
 db = SQLAlchemy(app)
+db.create_all()
+
 
 class User(db.Model):
     id = db.Column(db.Integer, primary_key=True)
@@ -15,8 +17,6 @@ class User(db.Model):
 
     def __repr__(self):
         return '<User %r>' % self.name
-
-db.create_all()
 
 
 @app.route('/')
@@ -31,10 +31,7 @@ def sign_in():
 
 @app.route('/create', methods=["POST"])
 def create_user():
-    name = request.form['name']
-    major = request.form['major']
-    new_user = User(name=name, major=major)
-
+    new_user = User(name=request.form['name'], major=request.form['major'])
     db.session.add(new_user)
     db.session.commit()
     return render_template('database.html', query=User.query.all())
