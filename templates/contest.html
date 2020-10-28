@@ -1,0 +1,37 @@
+{% extends 'template.html' %}
+
+{% block title %}메인 페이지{% endblock %}
+
+{% block head %}
+{{ super() }}
+<style type="text/css">
+    <!--메인 페이지에서 사용하는 css 입력-->
+
+</style>
+{% endblock %}
+
+{% block content %}
+<section class="site-section " id="section-resume">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12 mb-5">
+                <div class="section-heading text-center">
+                    <h2><strong>게시판</strong></h2>
+                </div>
+            </div>
+            <div class="col-md-12">
+                <h2 class="mb-5">자유게시판</h2>
+
+                {% for contest in contest_list %}
+                <div class="resume-item mb-4">
+                    <span class="date"><span class="icon-calendar"></span>contest test</span>
+                    <a href=""><h3>contest test</h3></a>
+                    <p>{{contest.name}}</p>
+                    <span class="school">Github</span>
+                </div>
+                {% endfor %}
+            </div>
+        </div>
+    </div>
+</section>
+{% endblock %}

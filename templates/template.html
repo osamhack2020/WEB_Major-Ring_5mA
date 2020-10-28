@@ -4,7 +4,7 @@
 
 <head>
     {% block head %}
-    <title>Major-Ring</title>
+    <title>메이저링-{%block title%}{% endblock %}</title>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <link rel="stylesheet" href="{{ url_for('static', filename='css/custom.css')}}">
@@ -21,7 +21,11 @@
 </head>
 
 <body data-spy="scroll" data-target="#pb-navbar" data-offset="200">
+
+<!--네비게이션 바 html 분리-->
 {%include 'navbar.html'%}
+
+<!--페이지별 내용이 들어가는 부분-->
 {% block content %} {% endblock %}
 
 <!--&lt;!&ndash; load jQuery 2.2.1 &ndash;&gt;-->

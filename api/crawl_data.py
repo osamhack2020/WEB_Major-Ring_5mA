@@ -1,13 +1,16 @@
 #api for crawling
 from urllib.request import urlopen
-# import re
-# import requests
 from bs4 import BeautifulSoup
 
-
-
-def show_activity(url):
+def craw_wevity(Contest, db):
+    url = "https://wevity.com"
     soup = BeautifulSoup(urlopen(url),"html.parser")
-    return str(soup.select("div.tit > a"))
+    selects = soup.select('div',{'class':'tit'} )
+    print(str(selects))
+    for select in selects:
+        print(str(select))
+        print("##############################################3")
+        new_contest = Contest(name=str(select))
+        db.session.add(new_contest)
+        db.session.commit()
 
-print(show_activity("https://wevity.com"))
