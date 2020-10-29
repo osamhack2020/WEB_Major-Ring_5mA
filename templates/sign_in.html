@@ -3,11 +3,13 @@
 {% block content %}
 
 <section class="site-section">
-    <div class="container">
+    <div class="container" style="position: absolute; left: 45%;">
         <form action="{{url_for('create_user') }}" method="post">
-            <input type="text" name="name">
-            <input type="text" name="major">
-            <input type="submit" value="가입하기!">
+            <div class="loginbox">
+                <input class="signin" type="text" name="name" placeholder="ID">
+                <input class="signin" type="password" name="major" placeholder="PassWord">
+                <input class="login"  type="submit" value="가입하기!">
+            </div>
         </form>
     </div>
 </section>
