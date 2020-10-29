@@ -17,12 +17,14 @@ class User(db.Model):
 
 class Contest(db.Model):
     id = db.Column(db.Integer, primary_key=True)
-    name = db.Column(db.String(500), nullable=False)
+    title = db.Column(db.String(100), nullable=False)
+    category = db.Column(db.String(100), nullable=False)
+    organization = db.Column(db.String(20), nullable=False)
 
 
 db.create_all()
 
-crawl_data.craw_wevity(Contest, db)
+# crawl_data.crawl_wevity(Contest, db)
 
 
 @app.route('/')

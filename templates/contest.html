@@ -24,10 +24,10 @@
 
                 {% for contest in contest_list %}
                 <div class="resume-item mb-4">
-                    <span class="date"><span class="icon-calendar"></span>contest test</span>
-                    <a href=""><h3>contest test</h3></a>
-                    <p>{{contest.name}}</p>
-                    <span class="school">Github</span>
+                    <span class="date"><span class="icon-calendar"></span></span>
+                    <a href=""><h3>{{contest.title}}</h3></a>
+                    <p>{{contest.category}}</p>
+                    <span class="school">{{contest.organization}}</span>
                 </div>
                 {% endfor %}
             </div>

@@ -1,0 +1,28 @@
+.signin{
+    display: block;
+    margin-bottom: 20px;
+    padding: 5px;
+    border-radius: 18px;
+    outline: none;
+    padding-left: 10px;
+}
+
+.login{
+    color: white;
+    background-color: #333;
+    display: block;
+    width: 100px;
+    margin-left: 49px;
+    border: 1px solid #333;
+    border-radius: 15px;
+    padding-top:1px;
+    padding-bottom: 1px;
+    outline:none;
+}
+
+.login:hover{
+    background-color:black;
+    border: 1px solid black;
+    transition: 1s;
+}
+
