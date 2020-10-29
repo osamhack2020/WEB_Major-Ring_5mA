@@ -22,7 +22,7 @@ class Contest(db.Model):
 
 db.create_all()
 
-crawl_data.craw_wevity(Contest, db)
+#crawl_data.craw_wevity(Contest, db)
 
 
 @app.route('/')
