@@ -3,13 +3,24 @@
 {% block content %}
 
 <section class="site-section">
-    <div class="container" style="position: absolute; left: 45%;">
+    <div style="position: absolute; left: 45%; top: 30%; width: 270px;">
+        <h1>
+            <a href="/">Major-Ring</a>
+        </h1>
         <form action="{{url_for('create_user') }}" method="post">
-            <div class="loginbox">
-                <input class="signin" type="text" name="name" placeholder="ID">
-                <input class="signin" type="password" name="major" placeholder="PassWord">
-                <input class="login"  type="submit" value="가입하기!">
-            </div>
+            <p class="input"><input type="text" name="name" maxlength="20" class="text" placeholder="ID"></p>
+            <p class="input"><input type="password" name="major" maxlength="20" class="text" placeholder="PassWord"></p>
+            <p class="submit"><input type="submit" class="text" value="로그인"></p>
+            <label class="auto">
+                <input type="checkbox" name="auto" value="1">
+                "로그인 유지"
+            </label>
+            <p class="find">
+                <a href="/forgot">아이디/비밀번호 찾기</a>
+            </p>
+            <p class="register">
+                <a href="/register">회원가입</a>
+            </p>
         </form>
     </div>
 </section>
