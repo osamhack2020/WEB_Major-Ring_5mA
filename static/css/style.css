@@ -1,8 +1,8 @@
 /*커스텀 변수*/
 
 body {
-  color: rgba(255, 255, 255, 0.4);
-  background: var(--my-background);
+  color: rgba(184, 184, 184, 0.4);
+  background: #e8e8e8;
   line-height: 1.7;
   font-size: 16px;
   font-weight: 300; }
@@ -327,12 +327,20 @@ a {
       padding: 20px;
       -webkit-transition: .3s all ease;
       -o-transition: .3s all ease;
-      transition: .3s all ease; }
+      transition: .3s all ease;
+      border: 2px solid var(--my-point);;
+      padding-top: 10px;
+      padding-bottom: 10px;
+      border-radius: 40px;
+      font-weight: 700;
+    }
       .filters ul li:hover {
-        color: var(--my-point); }
+        background-color: var(--my-point); 
+        color: white;}
       .filters ul li.active {
-        color: var(--my-point);
-        font-weight: 700;}
+        background-color: var(--my-point);
+        color: white;
+        }
 
 .single-portfolio {
   margin-bottom: 50px;
@@ -516,31 +524,40 @@ a {
 
 .resume-item {
   padding: 30px;
-  background: #333;
+  background: white;
   -webkit-transition: .3s all ease;
   -o-transition: .3s all ease;
   transition: .3s all ease;
-  border: 4px solid transparent;
-  border-radius: 7px; }
+  font-weight: 500;
+  border-radius: 7px; 
+}
   .resume-item .date {
     display: block;
     margin-bottom: 10px;
     font-size: 12px;
     font-weight: 700;
-    color: #fff; }
+    color: black; }
   .resume-item .school {
     display: block;
-    font-size: 16px; }
+    font-size: 16px; 
+  color: black;}
   .resume-item h3 {
     color: var(--my-point);
-    font-size: 20px; }
-  .resume-item .school {
-    color: rgba(255, 255, 255, 0.3); }
+    font-size: 20px;
+    font-weight: 700;  
+  }
+  .resume-item p {
+    color: black;
+  }
   .resume-item *:last-child {
     margin-bottom: 0; }
 
 .resume-item h3:hover{
   color: rgb(216, 55, 95)
+}
+
+.resume-item:hover{
+  background-color:rgb(238, 172, 188) ;
 }
 
 .blog-entry {
