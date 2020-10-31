@@ -35,10 +35,10 @@ $ flask run
 ```
 
 ## 프로젝트 사용법 (Getting Started)
-### *로그인
+### * 로그인
 ![로그인](https://user-images.githubusercontent.com/63488591/97769451-92e89280-1b6e-11eb-830a-2d3eb43a3739.png)
 
-### *메인페이지
+### * 메인페이지
 ![메인페이지](https://user-images.githubusercontent.com/63488591/97769196-2a98b180-1b6c-11eb-90fc-0af3ea07c51d.png)
 
 1. 자신의 전공별 정보 확인 가능
@@ -46,14 +46,14 @@ $ flask run
 3. 상단 슬라이드를 통한 빠른 공지사항 확인
 4. 필터를 통해 자신이 원하는 정보만 확인 가능
 
-### *게시판
+### * 게시판
 ![게시판](https://user-images.githubusercontent.com/63488591/97769393-d42c7280-1b6d-11eb-963f-7e6e73e94e7c.png)
 
 1. 올린날짜, 제목, 내용을 한눈에 파악할 수 있는 그리드 배열
 2. 같은 전공자들끼리의 자유로운 의사소통 가능
 3. hot게시판을 통한 같은 전공자들의 주요 관심사 확인
 
-### *게시판 상세
+### * 게시판 상세
 ![게시판 상세](https://user-images.githubusercontent.com/63488591/97769484-d3481080-1b6e-11eb-8b9d-6904cefdc8d8.png)
 
 ## 팀 정보 (Team Information)
