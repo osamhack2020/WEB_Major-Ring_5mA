@@ -1,5 +1,5 @@
 ## 팀 로고
-![Major-Ring_발표자료-01](https://user-images.githubusercontent.com/63488591/97768434-6e88b800-1b66-11eb-804c-7991e45560b9.jpg)
+![95680763-d5c1e500-0c16-11eb-8cfb-3dc6c5adb45d](https://user-images.githubusercontent.com/63488591/97781415-8562f500-1bce-11eb-96f0-18fc99ab5eb5.png)
 
 ## 팀소개 
 ![Major-Ring_발표자료-02](https://user-images.githubusercontent.com/63488591/97768340-a04d4f00-1b65-11eb-967b-b05a1c833c7b.jpg)
