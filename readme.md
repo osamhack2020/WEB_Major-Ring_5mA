@@ -1,5 +1,5 @@
 ## 팀 로고
-![5mA-logo](https://user-images.githubusercontent.com/33226487/95680763-d5c1e500-0c16-11eb-8cfb-3dc6c5adb45d.png)
+[팀 로고.pdf](https://github.com/osamhack2020/WEB_Major-Ring_5mA/files/5468339/default.pdf)
 
 ## 팀소개 및 프로잭트 설명 동영상    
 [![Watch the video](https://img.youtube.com/vi/LjX3eVQdIyk/0.jpg)](https://www.youtube.com/watch?time_continue=117&v=LjX3eVQdIyk)
