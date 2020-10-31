@@ -22,7 +22,7 @@
 ![Major-Ring_발표자료-17](https://user-images.githubusercontent.com/63488591/97768565-2f0e9b80-1b67-11eb-88a2-8f191920034d.jpg)
 
 ## 기능 설계
-
+oven
 ## 컴퓨터 구성 / 필수 조건 안내 (Prerequisites)
 * ECMAScript 6 지원 브라우저 사용
 * 권장: Google Chrome 버젼 77 이상
@@ -32,9 +32,10 @@
 
 ## 설치 안내 (Installation Process)
 ```bash
-$ git clone git주소
+$ git clone https://github.com/osamhack2020/WEB_Major-Ring_5mA.git
 $ yarn or npm install
-$ yarn start or npm run start
+flask 설치 후
+$ flask run
 ```
 
 ## 프로젝트 사용법 (Getting Started)
