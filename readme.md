@@ -34,7 +34,7 @@ oven
 ```bash
 $ git clone https://github.com/osamhack2020/WEB_Major-Ring_5mA.git
 $ yarn or npm install
-flask 설치 후
+$ pip install flask
 $ flask run
 ```
 
