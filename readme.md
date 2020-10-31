@@ -12,12 +12,8 @@
 * ECMAScript 6 지원 브라우저 사용
 * 권장: Google Chrome 버젼 77 이상
 
-## 기술 스택 (Technique Used) (예시)
-### Server(back-end)
- - Python Flask  
- 
-### front-end
- - JQuery 
+## 기술 스택 (Technique Used)
+![Major-Ring_발표자료-16](https://user-images.githubusercontent.com/63488591/97768360-d559a180-1b65-11eb-9701-ae59f56eb37e.jpg)
 
 ## 설치 안내 (Installation Process)
 ```bash
