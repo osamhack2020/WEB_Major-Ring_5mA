@@ -4,7 +4,7 @@
 ## 팀소개 및 프로잭트 설명 동영상   
 ![Major-Ring_발표자료-02](https://user-images.githubusercontent.com/63488591/97768340-a04d4f00-1b65-11eb-967b-b05a1c833c7b.jpg)
 [![Watch the video](https://img.youtube.com/vi/LjX3eVQdIyk/0.jpg)](https://www.youtube.com/watch?time_continue=117&v=LjX3eVQdIyk)
-
+<iframe width="640" height="360" src="https://www.youtube.com/watch?v=QWnha_PoFZs" frameborder="0" gesture="media" allowfullscreen=""></iframe>
 ## 왜 만들었나요?
 ![Major-Ring_발표자료-03](https://user-images.githubusercontent.com/63488591/97768566-2fa73200-1b67-11eb-97df-f70401f854ae.jpg)
 ![Major-Ring_발표자료-04](https://user-images.githubusercontent.com/63488591/97768567-2fa73200-1b67-11eb-9614-1fc4f1eef9e3.jpg)
