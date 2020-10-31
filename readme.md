@@ -17,11 +17,11 @@
 ![Major-Ring_발표자료-11](https://user-images.githubusercontent.com/63488591/97768560-2d44d800-1b67-11eb-9f67-ad6f732ef3d3.jpg)
 ![Major-Ring_발표자료-12](https://user-images.githubusercontent.com/63488591/97768561-2ddd6e80-1b67-11eb-8fcd-eb75a0c72262.jpg)
 
-## 기능 설계
-
-## 컴퓨터 구성 / 필수 조건 안내 (Prerequisites)
-* ECMAScript 6 지원 브라우저 사용
-* 권장: Google Chrome 버젼 77 이상
+## Major-Ring만의 특징
+![Major-Ring_발표자료-13](https://user-images.githubusercontent.com/63488591/97768562-2e760500-1b67-11eb-8d25-38f43bf3be35.jpg)
+![Major-Ring_발표자료-14](https://user-images.githubusercontent.com/63488591/97768563-2e760500-1b67-11eb-9190-6f6cffd464d7.jpg)
+![Major-Ring_발표자료-15](https://user-images.githubusercontent.com/63488591/97768564-2f0e9b80-1b67-11eb-9ee2-d72e03baa8d9.jpg)
+![Major-Ring_발표자료-17](https://user-images.githubusercontent.com/63488591/97768565-2f0e9b80-1b67-11eb-88a2-8f191920034d.jpg)
 
 ## 기술 스택 (Technique Used)
 ![Major-Ring_발표자료-16](https://user-images.githubusercontent.com/63488591/97768360-d559a180-1b65-11eb-9701-ae59f56eb37e.jpg)
@@ -56,16 +56,13 @@ $ flask run
 ### *게시판 상세
 ![게시판 상세](https://user-images.githubusercontent.com/63488591/97769484-d3481080-1b6e-11eb-8b9d-6904cefdc8d8.png)
 
-## Major-Ring만의 특징
-![Major-Ring_발표자료-13](https://user-images.githubusercontent.com/63488591/97768562-2e760500-1b67-11eb-8d25-38f43bf3be35.jpg)
-![Major-Ring_발표자료-14](https://user-images.githubusercontent.com/63488591/97768563-2e760500-1b67-11eb-9190-6f6cffd464d7.jpg)
-![Major-Ring_발표자료-15](https://user-images.githubusercontent.com/63488591/97768564-2f0e9b80-1b67-11eb-9ee2-d72e03baa8d9.jpg)
-![Major-Ring_발표자료-17](https://user-images.githubusercontent.com/63488591/97768565-2f0e9b80-1b67-11eb-88a2-8f191920034d.jpg)
-
-
 ## 팀 정보 (Team Information)
 - Choi In Kyu (aika823@naver.com), Github Id: aika823
 - newsm5403 (newsm5403@naver.com), Github Id: Moon9yu
+
+## 컴퓨터 구성 / 필수 조건 안내 (Prerequisites)
+* ECMAScript 6 지원 브라우저 사용
+* 권장: Google Chrome 버젼 77 이상
 
 ## 저작권 및 사용권 정보 (Copyleft / End User License)
  * [MIT](https://github.com/osam2020-WEB/Sample-ProjectName-TeamName/blob/master/license.md)
