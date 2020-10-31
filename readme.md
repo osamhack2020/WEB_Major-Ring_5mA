@@ -7,6 +7,8 @@
 ## 프로젝트 소개 동영상
 [![Watch the video](https://user-images.githubusercontent.com/63488591/97768434-6e88b800-1b66-11eb-804c-7991e45560b9.jpg)](https://www.youtube.com/watch?v=QWnha_PoFZs)
 
+## 프로젝트 실행 영상
+[![Watch the video](https://user-images.githubusercontent.com/63488591/97768434-6e88b800-1b66-11eb-804c-7991e45560b9.jpg)](https://www.youtube.com/watch?v=SA7g4u7PlQo&feature=youtu.be)
 
 ## 왜 만들었나요?
 ![Major-Ring_발표자료-03](https://user-images.githubusercontent.com/63488591/97768566-2fa73200-1b67-11eb-97df-f70401f854ae.jpg)
